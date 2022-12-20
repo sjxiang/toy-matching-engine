@@ -1,0 +1,14 @@
+
+server:
+  port: :8080
+
+
+log:
+  fileDir: logs           # 输出日志存放目录
+  fileName: matching      # 日志文件名，按日期分割
+  prefix:                 # 日志消息前缀
+  level: debug            # 日志级别，由低到高 debug、info、warn、error
+
+
+redis:
+  addr: 127.0.0.1:6379
